@@ -1,19 +1,12 @@
 <template>
-    <div>
-        <h2>Liste users</h2>
-        <UserList ref="userList" />
-        <h1> Ajout d'un user</h1>
-        <UserForm/>
-    </div>
+    <ImportHeader/>
 </template>
 <script>
-import UserList from "@/components/UserList.vue";
-import UserForm from "@/components/UserForm.vue";
+import ImportHeader from "@/components/partials/ImportHeader.vue";
 
 export default {
     components:{
-        UserForm,
-        UserList,
+        ImportHeader,
     }
 }
 </script>
