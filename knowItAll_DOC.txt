@@ -1,0 +1,23 @@
+Liste Routes :
+
+QUIZ
+
+GET - localhost:3000/quiz/644bc4b23f30cbcfe0267146 <- idQuiz
+DELETE  - localhost:3000/quiz/644bc4b23f30cbcfe0267146 <-idQuiz
+
+USER 
+
+POST - localhost:3000/auth/login {email et password}
+
+
+Lorsque on est connecté
+POST - login si il est bon = JWT
+
+GET - NEED JWT
+POST - NEED JWT
+DELETE - NEED JWT
+
+Lorsque on est pas connecté
+
+GET -  localhost:3000/quiz - get all QUIZ
+GET -  localhost:3000/quiz/idDuQuiz

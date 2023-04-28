@@ -1,8 +1,10 @@
 <template>
     <form @submit.prevent="submitForm">
-        <label for="username">Nom d'utilisateur :</label>
-        <input type="text" id="username" v-model="username" required>
-        <button type="submit">Ajouter</button>
+        <label for="email">email :</label>
+        <input type="email" id="email" required>
+        <label for="password">password :</label>
+        <input type="password" id="password" required>
+        <button type="submit">Se connecter</button>
     </form>
 </template>
 
